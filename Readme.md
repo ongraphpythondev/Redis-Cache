@@ -1,8 +1,8 @@
 # Redis Cache
-This is a small POC to implement the Redis cache with Django.
+This is a POC to implement the Redis cache with Django.
 
 #About Project
-This project contains some products and a frontend to intract with.
+This repo contains some products and a frontend to intract with.
 Whenever you try to search a product then it will store the product's information on the RAM for faster accessing.
 
 
@@ -11,10 +11,10 @@ Redis is a type of NoSQL database. It stores the information as a KEY:VALUE pair
 Redis stores the data on the RAM which makes it faster.
 
 ##Drawback
-It has a drawback. "Whenever system crash then all the data will be lost because it stores the data on RAM".
+It has a drawback: "Whenever system crash then all the data will be lost because it stores the data on system's RAM".
 
 ###Install
-For making this POC, I used Linux(Ubuntu) Operating System.
+The project uses Linux(Ubuntu) Operating System.
 So For linux, you have to run the following command:
 
 >sudo apt-get install redis
