@@ -1,0 +1,16 @@
+{% load static %}
+<link rel="stylesheet" href="{% static 'bootstrap.css' %}"/>
+<form method="get" action="/home/">
+<input type="text" name="filter_query" placeholder="Search....."/>
+</form>
+{% for i in datas %}
+
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">{{i.name}}</h5>
+    <p class="card-text">{{i.description}}</p>
+  </div>
+</div>
+
+{% endfor %}
+<script src="{% static 'js/custom.js' %}"></script>
